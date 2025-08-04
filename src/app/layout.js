@@ -5,7 +5,7 @@ import SideNavbar from "./components/SideNavbar";
 
 const inter = Inter({
   subsets: ["latin"],
-  weight:["200","400","600","700"],
+  weight:["200","400","500", "600","700"],
   variable: "--font-inter"
 })
 

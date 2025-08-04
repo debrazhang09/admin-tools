@@ -1,4 +1,3 @@
-import Image from 'next/image';
 export default function AdminHeader({name, imageUrl}) {
   return (
     <header className="flex h-[4.625rem] flex-shrink-0 bg-[#C4E6FF82]">
