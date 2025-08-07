@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root {
+  --font-inter: 'Inter';
+  --font-roboto: 'Roboto';
 }
 
-@theme inline {
+/* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -30,17 +30,42 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   height: 100%;
-  width: 100%
+  width: 100%;
+  font-family: var(--font-inter);
 }
 
 @layer utilities {
   .heading-primary {
     @apply text-[#2E2A2A] font-semibold text-[1.875rem] leading-[2.625rem];
   }
+  .heading-secondary {
+    @apply text-black font-semibold text-[1.25rem] leading-none;
+  }
   .text-primary {
-    @apply text-black font-normal text-[0.875rem] leading-none;
+    @apply text-black font-normal text-[0.875rem] leading-none h-[1.8125rem];
   }
   .text-number {
-    @apply text-black font-medium text-[1.5rem] leading-none;
+    @apply text-black font-medium text-[1.5rem] leading-none h-[1.8125rem];
   }
+  .button-text {
+    @apply text-[#F9FAFB] text-right font-normal text-[0.6875rem] leading-[1.125rem];
+  }
+  .table-text {
+    @apply text-black font-normal text-[0.6875rem] leading-none;
+  }
+  .table-head {
+    @apply text-[#495057] font-semibold text-[0.9735rem] leading-[1.40625rem];
+  }
+  .table-number {
+    @apply text-[#0573E9] text-[0.9735rem] font-normal leading-none;
+  }
+  .table-extend-text {
+    @apply text-[#66666] text-[0.9735rem] font-normal leading-[1.40625rem]
+  }
+}
+.table-head {
+  font-family: var(--font-roboto);
+}
+.table-extend-text {
+  font-family: var(--font-roboto);
 }
