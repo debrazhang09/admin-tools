@@ -1,6 +1,6 @@
-import AdminHeader from '../components/AdminHeader';
-import Overview from '../components/Overview';
-import UserVerification from "../components/UserVerification";
+import AdminHeader from '../components/adminheader/AdminHeader';
+import Overview from '../components/overview/Overview';
+import UserVerification from "../components/userverification/UserVerification";
 export default function AdminPage() {
   return (
     <div >

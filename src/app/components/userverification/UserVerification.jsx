@@ -1,5 +1,5 @@
-import {columns, data} from '../dammydata';
-import SharedTable from '../components/sharedTable';
+import {columns, data} from '../../dammydata';
+import SharedTable from '../sharedComponents/table/sharedTable';
 
 export default function userVerification() {
   //pending and completed fake data, the real data should fetch from database

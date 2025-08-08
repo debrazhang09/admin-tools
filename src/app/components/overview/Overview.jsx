@@ -1,4 +1,4 @@
-import {overviewData} from '../dammydata';
+import {overviewData} from '../../dammydata';
 export default function Overview() {
   // width: 7.89231rem height: 1.8125rem; flex-shrink: 0;
   const overviewMap = Object.entries(overviewData).map(([label, value]) => (
