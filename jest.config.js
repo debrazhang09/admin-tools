@@ -8,4 +8,4 @@ const config = {
   '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
   },
 };
-export default config;
+module.exports = config;
