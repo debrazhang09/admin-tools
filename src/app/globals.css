@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --font-inter: 'Inter';
-  --font-roboto: 'Roboto';
-}
-
 /* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
